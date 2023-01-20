@@ -1,0 +1,118 @@
+body{
+    background-image: url("./images/pexels-pixabay-258154.jpg");
+    background-size: cover;
+}
+
+
+.title{
+    /* border: solid; */
+    height: 10%;
+    color: aliceblue;
+    font-size: x-large;
+    font-family:fantasy;
+    font-style:italic;
+    text-align: center;
+    background-image: url(./images/pexels-pixabay-258154.jpg);
+    /* background-size: cover; */
+
+
+    /* background: ; */
+    
+}
+#panel{
+    /* border: solid; */
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    top: 25%;
+    background-image: url("./images/y.jpg");
+    opacity: 80%;
+
+}
+
+#room{
+    /* border: solid; */
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 120%;
+    
+    
+}
+#check_in{
+    /* border: solid; */
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    height: 40%;
+    width: 20%;
+    background-image: url("./images/y.jpg");
+    opacity: 80%;
+
+}
+#check_out{
+    /* border: solid; */
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    height: 40%;
+    width: 20%;
+    background-image: url("./images/y.jpg");
+    opacity: 80%;
+
+}
+
+input{
+    margin: 10px;
+    
+}
+
+h2,h3{
+    /* font-size: small; */
+    font-family:fantasy;
+    font-style:italic;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+div#button{
+    text-align: center;
+}
+
+.container{
+    width: 150px;
+    height: 150px;
+    /* border: solid; */
+    margin: 10px;
+    
+}
+
+img{
+    /* background-image: url(./vid/1395394-beautiful-battlefield-3-wallpaper-1080p-1920x1080-large-resolution.jpg); */
+    width: 150px;
+    height: 150px;
+
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.text{
+    width: 500px;
+    height: 150px;
+    /* border: solid; */
+    background-image: url("./images/y.jpg");
+    opacity: 80%;
+
+}
+li,h4,p{
+    color: aliceblue;
+    font-style: italic;
+    font-family:cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
